@@ -8,9 +8,7 @@ a{
 li{
     list-style: none;
 }
-body{
-    width:100%;
-}
+
 img{
     
 }
@@ -174,20 +172,57 @@ img{
             height:610px;
             width:1240px;
             margin: 0 auto;
-            background: cornflowerblue;
+            
             dl{
                 float: left;
                 dt{
+                    
                     float: left;
                 }
+                .axon-1-1{
+                    margin-top: 10px;
+                }
                 dd{
+                    height:300px;
+                    width:300px;
+                    background: #fff;
                     float: left;
+                    margin-left: 10px;
+                    text-align: center;
+                    
+                    h2{
+                        overflow: hidden;
+                        font-size: 14px;
+                        margin-top: 50px;
+                        font-weight: normal;
+                    }
+                    h3{
+                        font-size: 12px;
+                        color:#b0b0b0;
+                        margin-top: 12px;
+                        font-weight: normal;
+                    }
+                    p{
+                        font-weight: bold;
+                        font-size: 12px;
+                        color:#fc6822;
+                        margin-top: 16px;
+                        del{
+                            color:#76768b;
+                        }
+                    }
+                    .axon1-2{
+                        margin-top: 40px;
+                    }
+                    .axon1-3{
+                        margin-top: 62px;
+                    }
                     a{
                         
                         img{
-                            display: block;
-                            height:236px;
-                            width:236px;
+                            position: relative;
+                            
+                            top:32px;
                         }
                     }
                     
@@ -217,11 +252,43 @@ img{
     //配件商品
     .parts1{
         height:302px;
-        width:1240px;
-        margin:0 auto;
-        background:#fff;
+        width:100%;
+        
+        overflow: hidden;
         .parts1-1{
+            height:302px;
+            width:1240px;
+            margin:0 auto;
             
+            ul{
+                height:300px;
+                width:1240px;
+                
+                li{
+                    height:300px;
+                    width:300px;
+                    float: left; 
+                    background:#fff;
+                    margin: 0 5px;
+                    text-align: center;
+                   a{ 
+                       img{
+                            height:144px;
+                            width:150px;
+                            margin-top:32px;
+                        } 
+                    }
+                    p{
+                        margin-top: 30px;
+                        font-size:14px;
+                    }
+                    h3{
+                        margin-top: 34px;
+                        color:#fc6822;
+                        font-size:12px;
+                    }
+                }
+            }
         }
     }
 
@@ -229,5 +296,144 @@ img{
 .footer{
     height:544px;
     width:100%;
-    clear: both;
+    overflow: hidden;
+    .footer-1{
+        height:139px;
+        width:1230px;
+        margin:0 auto;
+        text-align: center;
+        border-bottom:1px solid #dfdfdf ;
+       
+        ul{
+
+            width:100%;
+            .footer-1-1{
+                margin-left:70px ;
+            }
+            li{
+                float: left;
+                margin-top: 42px;
+                margin-left:134px;
+                img{
+                    vertical-align: middle;
+                 }
+                span{
+                    display: inline-block;
+                    margin-left: 8px;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+    .footer-2{
+        width:1230px;
+        height:282px;
+        margin:0 auto;
+        border-bottom:1px solid #dfdfdf;
+        .footer-2-1{
+            ul{
+                float: left;
+                margin-top:30px;
+                li{
+                    margin-top: 20px;
+                    margin-left: 56px;
+                    margin-right: 36px;
+                    a{
+                        color:#999;
+                        font-size: 12px;
+                        
+                    }
+                    
+                }
+                .footer-2-1-1{
+                     a{
+                        font-size:16px;
+                        color:black;
+                    }     
+                }
+            }
+        }
+        .footer-2-2{
+            
+            float:left;
+            margin-left: 276px;
+            margin-top: 76px;
+            
+            .footer-2-2-1{
+                width:102px;
+                height:30px;
+                background:#0086d1;
+                text-align: center;
+                line-height: 30px;
+                a{
+                    color:#fff;
+                }
+            }
+            .footer-2-2-2{
+                margin-top: 24px;
+                font-size: 12px;
+                color:#787878;
+            }
+            .footer-2-2-3{
+                margin-top: 26px;
+                font-size: 12px;
+                color:#787878;
+            }
+        }
+        
+    }
+    .footer-3{
+        overflow: hidden;
+        width:100%;
+        .footer-3-1{
+            width:1230px;
+            
+            margin:0 auto;
+           
+            
+            text-align: center;
+                .footer-3-1-1{
+                    margin-top: 26px;
+                    a{
+                        font-size: 14px;
+                        color:#767676;
+                        padding: 0 12px;
+                        border-right: 1px solid #5a5453;
+                    }
+                    .footer-3-1-1-1{
+                        border: none;
+                    }
+                }
+            .footer-3-2{
+                margin-top: 16px;
+                a{
+                    font-size: 12px;
+                    color:#c2c2c2;
+                }
+                p{
+                    font-size: 12px;
+                    color:#c2c2c2;
+                }
+            }
+            .footer-3-3{
+                position: relative;
+                height:36px;
+                p{
+                    height:36px;
+                    line-height: 36px;
+                    vertical-align: middle;
+                    font-size: 12px;
+                    color:#c2c2c2;
+                }    
+                img{
+                    height:36px;
+                    width:26px;
+                    float: left;
+                    position: absolute;
+                    right: 268px;
+                    bottom:0;
+                }
+            }
+        }   
+    }
 }
