@@ -100,7 +100,92 @@ img{
     width:100%;
     margin: 0 auto;
     height:480px;
-    display: block;
+    
+    .slideshow-1{
+        height:480px;
+        width:250px;      
+        background-color: rgba(248, 247, 247, 0.8);
+        position:absolute;
+        left:100px;
+        top:126px;
+        ol{
+            height:480px;
+            width:250px;
+            .menu{
+                float: left;
+                height:41px;
+                width:208px;
+                
+                font-size: 14px;
+                padding:14px 20px 14px 21px;
+                overflow: hidden;
+                h4{
+                    padding-bottom: 8px;
+                    width:208px;
+                }
+                ul{
+                    
+                    li{
+                        float: left;
+                        font-size: 12px;
+                        margin-right: 12px;
+                        color: #999;
+                    }
+                }   
+            .menu-1{
+                width:320px;
+                height:480px;
+                position: absolute;
+                left:249px;
+                top:0;
+                background: white;
+                display:none;
+                ul{
+                    
+                    li{
+                        width:148px;
+                        vertical-align: middle;
+                        padding: 15px 0;
+                        
+                        a{
+                            
+                            img{
+                                max-height:66px;
+                                max-width:50px;
+                            }
+                        }
+                        
+                    }
+                }
+            }
+            }
+            .menu:hover{
+                background:white;
+            }
+            #menu-1:hover #menu1{
+                display: block;
+            }
+            #menu-2:hover #menu2{
+                display: block;
+            }
+            #menu-3:hover #menu3{
+                display: block;
+            }
+            #menu-4:hover #menu4{
+                display: block;
+            }
+            #menu-5:hover #menu5{
+                display: block;
+            }
+            #menu-6:hover #menu6{
+                display: block;
+            }
+            #menu-7:hover #menu7{
+                display: block;
+            }
+            
+        }
+    }
 }
 //今日抢购
 .jrqg{
