@@ -231,382 +231,144 @@ img{
         } 
     }
 }
-//轮播图
-.slideshow{
-    width:1900px;
-    margin: 0 auto;
-    height:480px;
-    p{
-        img{
-        width:100%;
-        margin:0 auto;
-        position: absolute;
-        left: 0;
-        top:124px;
-        height:480px;
-    }
-    }
-    
-    .slideshow1{
-        height:10px;
-        width:10px;
-        border-radius:50%;
-        position: absolute;
-        border: 1px solid #fff;
-        right:432px;
-        top:560px;
-    }
-    .slideshow2{
-        height:10px;
-        width:10px;
-        border-radius:50%;
-        position: absolute;
-        border: 1px solid #fff;
-        right:416px;
-        top:560px;
-    }
-    .slideshow3{
-        height:10px;
-        width:10px;
-        border-radius:50%;
-        position: absolute;
-        border: 1px solid #fff;
-        right:400px;
-        top:560px;
-    }
-    .slideshow-1{
-        height:480px;
-        width:250px;      
-        background-color: rgba(248, 247, 247, 0.8);
-        position:absolute;
-        left:100px;
-        top:124px;
-        
-        ol{
-            height:480px;
-            width:250px;
-            .menu{
-                
-                float: left;
-                height:41px;
-                width:208px;
-                
-                font-size: 14px;
-                padding:14px 20px 14px 21px;
-                overflow: hidden;
-                h4{
-                    padding-bottom: 8px;
-                    width:208px;
-                }
-                ul{
-                    
-                    li{
-                        float: left;
-                        font-size: 12px;
-                        margin-right: 12px;
-                        color: #999;
-                    }
-                }   
-                .menu-1{
-                    width:320px;
-                    height:480px;
-                    position: absolute;
-                    left:249px;
-                    top:0;
-                    background: white;
-                    display:none;
-                    
-                    ul{
-                        float: left;
-                        .menu-2{
-                            width:145px;
-                            vertical-align: middle;
-                            padding: 15px 0;
-                            float: none;
-                            height:66px;
-                            line-height: 66px;
-                            a{
-                                
-                                img{
-                                    max-height:66px;
-                                    max-width:50px;
-                                    vertical-align: middle;
-                                    
-                                }
-                            }   
-                        }
-                    }
-                }
-            }
-            .menu:hover{
-                background:white;
-            }
-            #menu-1:hover #menu1{
-                display: block;
-            }
-            #menu-2:hover #menu2{
-                display: block;
-            }
-            #menu-3:hover #menu3{
-                display: block;
-            }
-            #menu-4:hover #menu4{
-                display: block;
-            }
-            #menu-5:hover #menu5{
-                display: block;
-            }
-            #menu-6:hover #menu6{
-                display: block;
-            }
-            #menu-7:hover #menu7{
-                display: block;
-            }
-            
-        }
-    }
-}
-//今日抢购
-.jrqg{
-    height:92px;
-    width:1240px;
-    margin:0 auto;
-    line-height: 92px;
-    .jrqg-1{
-        
-       p{
-            float: left;
-            font-size: 22px;
-        }
-        span{
-            margin-left: 6px;
-            font-size: 14px;
-        } 
-    }
-    
-}
-//折叠手机
-.content{
-    height:310px;
+.liebiao{
+    background:#f5f5f5;
     width:100%;
+    height:1830px;
     
-    margin-bottom:30px ;
-    .content-1{
-        width:1236px;
+    .slideshow{
+        width:1230px;
+        background: darkviolet;
         margin:0 auto;
-        .content-1-1{
+        .slideshow1{
+            width:598px;
+            height:576px;
+            background:#fff;
             float: left;
-        }
-        .content-1-2{
-            float: right;
-        }
-    }
-}
-//内容
-.commodity{
-    background: #f5f5f5;
-    width:100%;
-    height:1116px;
-    float:left;
-    //手机专区
-    .phone{
-        height:92px;
-        width:100%;
-        line-height: 92px;
-        .phone-1{
-            width:1240px;
-            margin:0 auto;
-           p{
-                float: left;
-                font-size: 22px;
-            } 
-            span{
-                margin-left: 6px;
-                font-size: 14px;
-            }
-        }
-        
-        
-    }
-    //手机商品
-    .axon{
-        height:610px;
-        width:100%;
-        .axon-1{
-            height:610px;
-            width:1240px;
-            margin: 0 auto;
-            
-            dl{
-                float: left;
-                dt{
-                    
-                    float: left;
-                }
-                .axon-1-1{
-                    margin-top: 10px;
-                }
-                dd{
-                    height:300px;
-                    width:300px;
-                    background: #fff;
-                    float: left;
-                    margin-left: 10px;
-                    text-align: center;
-                    
-                    h2{
-                        overflow: hidden;
-                        font-size: 14px;
-                        margin-top: 50px;
-                        font-weight: normal;
-                    }
-                    h3{
-                        font-size: 12px;
-                        color:#b0b0b0;
-                        margin-top: 12px;
-                        font-weight: normal;
-                    }
-                    p{
-                        font-weight: bold;
-                        font-size: 12px;
-                        color:#fc6822;
-                        margin-top: 16px;
-                        del{
-                            color:#76768b;
-                        }
-                    }
-                    .axon1-2{
-                        margin-top: 40px;
-                    }
-                    .axon1-3{
-                        margin-top: 62px;
-                    }
-                    a{
-                        
-                        img{
-                            position: relative;
-                            
-                            top:32px;
-                        }
-                    }
-                    
-                }
-            }
-        }           
-    }
-    //精品配件
-    .parts{
-        height:92px;
-        width:100%;
-        
-        .parts-1{
-            width:1240px;
-            line-height: 92px;
-            margin:0 auto;
-            
-            .parse1{
-                float: left;
-                width:178px;
-                p{
-                    float: left;
-                    font-size: 22px;
-                } 
-                span{
-                    margin-left: 6px;
-                    font-size: 14px;
-                    float: left;
-                }
-            }
-            
-            .parse2{
-                float: right;
-                
-                ul{
-                    
-                    li{
-                        float: left;
-                        height:89px;
-                        text-align: center;
-                        padding:0 5px;
-                        
-                        img{
-                            vertical-align: middle;
-                        }
-                    }
-                    .parse2-1{
-                        margin-right:24px;
-                        
-                    }
-                    .parse2-2{
-                        margin-right:24px;
-                        
-                    }
-                    .parse2-3{
-                        margin-right:24px;
-                        
-                    }
-                    .parse2-1:hover{
-                        border-bottom:3px solid #fc6628;
-                        color:#fc6628;
-                    }
-                    .parse2-2:hover{
-                        border-bottom:3px solid #fc6628;
-                        color:#fc6628;
-                    }
-                    .parse2-3:hover{
-                        border-bottom:3px solid #fc6628;
-                        color:#fc6628;
+            text-align: center;
+            margin-bottom: 30px;
+            border:1px solid #dadada;
+            .a{
+                padding-top:30px;
+                padding-bottom:45px;
+                height:350px;
+                width:350px;
+                margin: auto;
+                a{
+                    img{
+                        width:350px;
+                        height:350px;
                     }
                 }
             }
-        }
-        
-        
-    }
-    //配件商品
-    .parts1{
-        height:302px;
-        width:100%;
-        
-        overflow: hidden;
-        .parts1-1{
-            height:302px;
-            width:1240px;
-            margin:0 auto;
-            
-            ul{
-                height:300px;
-                width:1240px;
-                position: absolute;
-                li{
-                    height:300px;
-                    width:300px;
-                    float: left; 
-                    background:#fff;
-                    margin: 0 5px;
-                    text-align: center;
-                   a{ 
-                       img{
-                            height:144px;
-                            width:150px;
-                            margin-top:32px;
-                        } 
-                    }
-                    p{
-                        margin-top: 30px;
-                        font-size:14px;
-                    }
-                    h3{
-                        margin-top: 34px;
-                        color:#fc6822;
-                        font-size:12px;
-                    }
-                }
+            p{
+                text-align:center;
+                height:24px;
+                padding: 0 50px;
+                margin-bottom: 15px;
+                font-size:24px;
+               
+                color:#333;
                 
             }
+            h4{
+                font-size:14px;
+                font-weight:normal;
+                color:#B0B0B0;
+                height:16px;
+                text-align: center;
+                width:300px;
+                line-height:1.1;
+                white-space: nowrap;
+                margin:0 auto 15px;
+            }
+            .lianjie{
+                
+                line-height:42px;
+                width:auto;
+                height:42px;
+                display: inline-block;
+                margin:0 auto 35px;
+                .character1-1{
+                    
+                    float: left;
+                    font-size:24px;
+                    color:#FC6822;
+                    margin-left:15px;
+                    del{
+                        color:#787878;
+                        padding-left:15px;
+                        font-size:22px;
+                    }
+                }
+                .character1-2{
+                    width:160px;
+                    height:42px;
+                    line-height: 42px;
+                    border:1px solid #FC6822;
+                    float: left;
+                    margin-left: 19px;
+                    color:#FC6822;
+                    font-size:16px;
+                }
+            }
         }
+        .slideshow-1{
+            margin-top: 10px;
+            margin-right: 30px;
+            a{
+                
+                img{
+                    
+                }
+            }
+        }
+        .slideshow-2{
+            margin-top: 10px;
+            a{
+                
+                img{
+                       
+                }
+            }
+        }
+        .slideshow-3{
+            margin-right: 30px;
+            a{
+                
+                img{
+                    
+                }
+            }
+        }
+        .slideshow-4{
+            
+            a{
+                
+                img{
+                     
+                }
+            }
+        }
+        .slideshow-5{
+            margin-right: 30px;
+            a{
+                
+                img{
+                     
+                }
+            }
+        }
+        .slideshow-6{
+            
+            a{
+                
+                img{
+                    
+                }
+            }
+        }  
     }
-
 }
 .footer{
     height:544px;
@@ -805,3 +567,4 @@ img{
         }
     }
 }
+

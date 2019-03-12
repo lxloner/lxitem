@@ -6,7 +6,7 @@ const gulp = require('gulp'),
 	uglify = require('gulp-uglify');
 
 gulp.task('css',function(){
-	gulp.src('./src/scss/index.scss')
+	gulp.src('./src/scss/*.scss')
 	.pipe(sass())
 	.pipe(cssnano())
 	.pipe(rename({'suffix' : '.min'}))
@@ -20,6 +20,6 @@ gulp.task('js',function(){
 	.pipe(gulp.dest("./dist"))
 })
 gulp.task('default',function(){
-	gulp.watch(['./src/scss/index.scss'],['css']);
+	gulp.watch(['./src/scss/*.scss'],['css']);
 	gulp.watch(['./src/js/index.js'],['js']);
 }) 
