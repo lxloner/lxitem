@@ -12,6 +12,9 @@ li{
 img{
     
 }
+body{
+    width:100%;
+}
 //顶部
 .header{
     width:100%;
@@ -29,6 +32,10 @@ img{
                 a{
                     color:#787878;
                     margin:0 10px;
+                    cursor:pointer;
+                }
+                a:hover{
+                    color:#000;
                 }
             }
         }
@@ -58,10 +65,15 @@ img{
                 a{
                     color:#787878;
                     margin:0 10px;
+                    cursor:pointer;
+                    
                     img{
                         margin-right:6px;
                         vertical-align: middle;
                     }
+                }
+                a:hover{
+                    color:#000;
                 }
             }
             li:hover .gwc{
@@ -92,9 +104,14 @@ img{
                 padding: 0 16px;
                 font-size:12px;
                 line-height: 36px;
+                   
                 a{
                     color:#000;
                     font-size: 14px;
+                    cursor:pointer;
+                }
+                a:hover{
+                    color:#0086D1;
                 }
                 .logo-1-1{
                     z-index: 100;
@@ -117,6 +134,7 @@ img{
                             text-align: center;
                             border-left: 1px solid #e0e0e0;
                             margin-top:10px ;
+                            
                             p{
                                 color:#666;
                                 font-size: 12px;
@@ -143,6 +161,11 @@ img{
                                     margin-top: 10px;
                                 }
                             }
+                        }
+                        li:hover{
+                            transition:all 0.5s;
+                            transform: translateY(-4px);
+                            box-shadow:0 0 0 #e5e5e5;
                         }
                         .logo-1-1-1{
                             border:none;      
@@ -189,6 +212,11 @@ img{
                                     
                                 }
                             }
+                        }
+                        li:hover{
+                            transition:all 0.5s;
+                            transform: translateY(-4px);
+                            box-shadow:0 0 0 #e5e5e5;
                         }
                         .logo-1-1-1{
                                 border:none;
@@ -310,8 +338,19 @@ img{
                     margin-left: 19px;
                     color:#FC6822;
                     font-size:16px;
+                    cursor:pointer;
+                    
+                }
+                .character1-2:hover{
+                        background:#FC6822;
+                        color:#fff;
                 }
             }
+        }
+        .slideshow1:hover{
+            transition:all 0.3s;
+            transform: translateY(-4px);
+            box-shadow:0 4px 4px 4px #e5e5e5;
         }
         .slideshow-1{
             margin-top: 10px;
@@ -420,12 +459,18 @@ img{
                         font-size: 12px;
                         
                     }
+                    a:hover{
+                        color:#FC6822;
+                    }
                     
                 }
                 .footer-2-1-1{
                      a{
                         font-size:16px;
                         color:black;
+                    }
+                    a:hover{
+                        color:#000;
                     }     
                 }
             }

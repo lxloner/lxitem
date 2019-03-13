@@ -12,6 +12,9 @@ li{
 img{
     
 }
+body{
+    width:100%;
+}
 //顶部
 .header{
     width:100%;
@@ -29,6 +32,10 @@ img{
                 a{
                     color:#787878;
                     margin:0 10px;
+                    cursor:pointer;
+                }
+                a:hover{
+                    color:#000;
                 }
             }
         }
@@ -58,10 +65,15 @@ img{
                 a{
                     color:#787878;
                     margin:0 10px;
+                    cursor:pointer;
+                    
                     img{
                         margin-right:6px;
                         vertical-align: middle;
                     }
+                }
+                a:hover{
+                    color:#000;
                 }
             }
             li:hover .gwc{
@@ -92,9 +104,14 @@ img{
                 padding: 0 16px;
                 font-size:12px;
                 line-height: 36px;
+                   
                 a{
                     color:#000;
                     font-size: 14px;
+                    cursor:pointer;
+                }
+                a:hover{
+                    color:#0086D1;
                 }
                 .logo-1-1{
                     z-index: 100;
@@ -117,6 +134,7 @@ img{
                             text-align: center;
                             border-left: 1px solid #e0e0e0;
                             margin-top:10px ;
+                            
                             p{
                                 color:#666;
                                 font-size: 12px;
@@ -143,6 +161,11 @@ img{
                                     margin-top: 10px;
                                 }
                             }
+                        }
+                        li:hover{
+                            transition:all 0.5s;
+                            transform: translateY(-4px);
+                            box-shadow:0 0 0 #e5e5e5;
                         }
                         .logo-1-1-1{
                             border:none;      
@@ -190,6 +213,11 @@ img{
                                 }
                             }
                         }
+                        li:hover{
+                            transition:all 0.5s;
+                            transform: translateY(-4px);
+                            box-shadow:0 0 0 #e5e5e5;
+                        }
                         .logo-1-1-1{
                                 border:none;
                         }
@@ -233,16 +261,19 @@ img{
 }
 //轮播图
 .slideshow{
-    width:1900px;
+    width:100%;
     margin: 0 auto;
     height:480px;
-    p{
+    overflow: hidden;
+    .image1{
+            width:300%;
+            
+            position:relative;
         img{
-        width:100%;
-        margin:0 auto;
-        position: absolute;
-        left: 0;
-        top:124px;
+        
+        
+        
+        
         height:480px;
     }
     }
@@ -275,7 +306,7 @@ img{
         top:560px;
     }
     .slideshow-1{
-        height:480px;
+        height:482px;
         width:250px;      
         background-color: rgba(248, 247, 247, 0.8);
         position:absolute;
@@ -305,11 +336,14 @@ img{
                         font-size: 12px;
                         margin-right: 12px;
                         color: #999;
+                        a{
+                           cursor:pointer; 
+                        }
                     }
                 }   
                 .menu-1{
                     width:320px;
-                    height:480px;
+                    height:482px;
                     position: absolute;
                     left:249px;
                     top:0;
@@ -333,7 +367,10 @@ img{
                                     vertical-align: middle;
                                     
                                 }
-                            }   
+                            } 
+                            a:hover{
+                                color:#FC6628;
+                            }  
                         }
                     }
                 }
@@ -396,9 +433,27 @@ img{
         margin:0 auto;
         .content-1-1{
             float: left;
+           cursor:pointer;
+            img{
+                vertical-align: middle;
+            }
         }
         .content-1-2{
             float: right;
+            cursor:pointer;
+            img{
+                vertical-align: middle;
+            }
+        }
+        .content-1-1:hover{
+            transition:all 0.3s;
+            transform: translateY(-4px);
+            box-shadow:0 4px 4px 4px #e5e5e5;
+        }
+        .content-1-2:hover{
+            transition:all 0.3s;
+            transform: translateY(-4px);
+            box-shadow:0 4px 4px 4px #e5e5e5;
         }
     }
 }
@@ -453,7 +508,7 @@ img{
                     float: left;
                     margin-left: 10px;
                     text-align: center;
-                    
+                    cursor:pointer;
                     h2{
                         overflow: hidden;
                         font-size: 14px;
@@ -485,11 +540,27 @@ img{
                         
                         img{
                             position: relative;
-                            
+                            vertical-align: middle;
                             top:32px;
                         }
                     }
                     
+                }
+                dt{
+                    cursor:pointer;
+                    img{
+                        display: block;
+                    }
+                }
+                dt:hover{
+                    transition:all 0.3s;
+                    transform: translateY(-4px);
+                    box-shadow:0 4px 4px 4px #e5e5e5;
+                }
+                dd:hover{
+                    transition:all 0.3s;
+                    transform: translateY(-4px);
+                    box-shadow:0 4px 4px 4px #e5e5e5;
                 }
             }
         }           
@@ -517,67 +588,97 @@ img{
                     float: left;
                 }
             }
-            
-            .parse2{
-                float: right;
-                
-                ul{
-                    
-                    li{
-                        float: left;
-                        height:89px;
-                        text-align: center;
-                        padding:0 5px;
-                        
-                        img{
-                            vertical-align: middle;
-                        }
-                    }
-                    .parse2-1{
-                        margin-right:24px;
-                        
-                    }
-                    .parse2-2{
-                        margin-right:24px;
-                        
-                    }
-                    .parse2-3{
-                        margin-right:24px;
-                        
-                    }
-                    .parse2-1:hover{
-                        border-bottom:3px solid #fc6628;
-                        color:#fc6628;
-                    }
-                    .parse2-2:hover{
-                        border-bottom:3px solid #fc6628;
-                        color:#fc6628;
-                    }
-                    .parse2-3:hover{
-                        border-bottom:3px solid #fc6628;
-                        color:#fc6628;
-                    }
-                }
-            }
         }
-        
-        
     }
+}
     //配件商品
     .parts1{
         height:302px;
         width:100%;
+        position: relative;
         
-        overflow: hidden;
         .parts1-1{
             height:302px;
             width:1240px;
             margin:0 auto;
-            
+            ol{
+                position: absolute;
+                top:-92px;
+                right:338px;  
+                z-index: 1000; 
+                li{
+                    float: left;
+                    height:89px;
+                    text-align: center;
+                    padding:0 5px;
+                    line-height:89px ;    
+                    img{
+                        vertical-align: middle;
+                    }
+                }
+                #parse2-1{
+                    margin-right:24px;
+                    a{
+                        cursor:pointer;
+                    }
+                       
+                }
+                #parse2-2{
+                    margin-right:24px;
+                    a{
+                        cursor:pointer;
+                    }
+                }
+                #parse2-3{
+                    margin-right:24px;
+                    a{
+                        cursor:pointer;
+                    }    
+                }
+                #parse2-4{
+                    float:left;
+                    height:89px;
+                    line-height:89px;
+                    a{
+                        cursor:pointer;
+                    }
+                }
+            }
+            .parse-2-1{
+                    z-index: 1000;
+                    display: block;
+                    cursor:pointer;
+                    li:hover{
+                        transition:all 0.2s;
+                        transform: translateY(-4px);
+                        box-shadow:0 4px 4px 4px #e5e5e5;
+                    } 
+            }
+            .parse-2-2{
+                z-index: 999;
+                display: block;
+                cursor:pointer;
+                li:hover{
+                     transition:all 0.2s;
+                    transform: translateY(-4px);
+                    box-shadow:0 4px 4px 4px #e5e5e5;
+                }  
+            } 
+            .parse-2-3{
+                z-index: 998;
+                display: block;
+                cursor:pointer;
+                li:hover{
+                    transition:all 0.2s;
+                    transform: translateY(-4px);
+                    box-shadow:0 4px 4px 4px #e5e5e5;
+                }  
+            }   
             ul{
                 height:300px;
                 width:1240px;
                 position: absolute;
+                
                 li{
                     height:300px;
                     width:300px;
@@ -600,14 +701,13 @@ img{
                         margin-top: 34px;
                         color:#fc6822;
                         font-size:12px;
+                        
                     }
                 }
                 
             }
         }
     }
-
-}
 .footer{
     height:544px;
     width:100%;
@@ -658,12 +758,17 @@ img{
                         font-size: 12px;
                         
                     }
-                    
+                    a:hover{
+                        color:#FC6822;
+                    }
                 }
                 .footer-2-1-1{
                      a{
                         font-size:16px;
                         color:black;
+                    }
+                    a:hover{
+                        color:#000;
                     }     
                 }
             }

@@ -2,9 +2,14 @@
 <html>
 	<head>
 		<meta charset="UTF-8">
-		<title></title>
+		<title>中兴手机商城 (myzte.com) 是中兴通讯旗下自营电子商务平台,以最终用户为主要对象,提供中兴手机、智能投影仪、配件等终端产品,官方商城,品质保证!</title>
 		<link rel="stylesheet" type="text/css" href="dist/index.min.css"/>
-		
+		<style type="text/css">
+			.parse-2{
+				border-bottom:3px solid #fc6628;
+                color:#fc6628;
+			}
+		</style>
 	</head>
 	<body>
 		<div class="header">
@@ -16,12 +21,12 @@
 					<li><a href="#">意见反馈</a></li>
 				</ul>
 				<ol>
-					<li><a href="#">登陆</a></li>
-					<li><a href="#">注册</a></li>
+					<li><a href="landing.html">登陆</a></li>
+					<li><a href="login.html">注册</a></li>
 					<li>
 						<a href="#"><img src="img/shopcart.png"/>购物车</a>
 						<div class="gwc">
-							<p>购物车中还没有商品，快快选购把<img src="smile.png"></p>
+							<p>购物车中还没有商品，快快选购把<img src="img/smile.png"></p>
 						</div>
 					</li>
 				</ol>
@@ -87,26 +92,24 @@
 			
 		</div>
 		<div class="slideshow" id="slideshow">
-			<p><img src="img/4644f0ab215f.jpg"/></p>
-			<p><img src="img/022dacd9c97e.jpg"/></p>
-			<p><img src="img/a35d46b67834.jpg"/></p>
-			<div class="slideshow1" id="slideshow1">
-				
+			<div class="image1">
+				<img src="img/4644f0ab215f.jpg"/>
+				<img src="img/022dacd9c97e.jpg"/>
+				<img src="img/a35d46b67834.jpg"/>
 			</div>
-			<div class="slideshow2" id="slideshow2">
-				
-			</div>
-			<div class="slideshow3" id="slideshow3">
-				
-			</div>
+			<ol class="box">
+				<li class="slideshow1 box1"></li>
+				<li class="slideshow2"></li>
+				<li class="slideshow3"></li>
+			</ol>
 			<div class="slideshow-1">
 				<ol>
 					<li class="menu" id="menu-1">
-						<h4>手机</h4>
+						<h4><a>手机</a></h4>
 						<ul>
-							<li>天机系列</li>
-							<li>Blade系列</li>
-							<li>运航系列</li>
+							<li><a>天机系列</a></li>
+							<li><a>Blade系列</a></li>
+							<li><a>运航系列</a></li>
 						</ul>
 						<div class="menu-1" id="menu1">
 							<ul>
@@ -121,11 +124,11 @@
 						</div>
 					</li>
 					<li class="menu" id="menu-2">
-						<h4>智能终端</h4>
+						<h4><a>智能终端</a></h4>
 						<ul>
-							<li>便携投影</li>
-							<li>智能穿戴</li>
-							<li>网络盒子</li>
+							<li><a>便携投影</a></li>
+							<li><a>智能穿戴</a></li>
+							<li><a>网络盒子</a></li>
 						</ul>
 						<div class="menu-1" id="menu2">
 							<ul>
@@ -139,11 +142,11 @@
 						</div>
 					</li>
 					<li class="menu" id="menu-3">
-						<h4>耳机/音箱</h4>
+						<h4><a>>耳机/音箱</a</h4>
 						<ul>
-							<li>蓝牙耳机</li>
-							<li>蓝牙音箱</li>
-							<li>有线耳机</li>
+							<li><a>蓝牙耳机</a></li>
+							<li><a>蓝牙音箱</a></li>
+							<li><a>有线耳机</a></li>
 						</ul>
 						<div class="menu-1" id="menu3">
 							<ul>
@@ -156,11 +159,11 @@
 						</div>
 					</li>
 					<li class="menu" id="menu-4">
-						<h4>数据线/电源适配器</h4>
+						<h4><a>数据线/电源适配器</a></h4>
 						<ul>
-							<li>充电器</li>
-							<li>数据线</li>
-							<li>车载充电</li>
+							<li><a>充电器</a></li>
+							<li><a>数据线</a></li>
+							<li><a>车载充电</a></li>
 						</ul>
 						<div class="menu-1" id="menu4">
 							<ul>
@@ -173,11 +176,11 @@
 						</div>
 					</li>
 					<li class="menu" id="menu-5">
-						<h4>保护套/后盖/贴膜</h4>
+						<h4><a>保护套/后盖/贴膜</a></h4>
 						<ul>
-							<li>皮套</li>
-							<li>贴膜</li>
-							<li>保护袋</li>
+							<li><a>皮套</a></li>
+							<li><a>贴膜</a></li>
+							<li><a>保护袋</a></li>
 						</ul>
 						<div class="menu-1" id="menu5">
 							<ul>
@@ -234,7 +237,7 @@
 		<div class="content">
 			<div class="content-1">
 				<div class="content-1-1">
-					<a href="#"><img src="img/1f1d830b4ee3.jpg"/></a>
+					<a href="details.html"><img src="img/1f1d830b4ee3.jpg"/></a>
 				</div>
 				<div class="content-1-2">
 					<a href="#"><img src="img/fa6e3c999bb8.jpg"/></a>
@@ -292,18 +295,18 @@
 					<span>精品手机配件</span>
 					</div>
 					<div class="parse2">
-						<ul>
-							<li class="parse2-1">壳膜套</li>
-							<li class="parse2-2">充电宝</li>
-							<li class="parse2-3">耳机</li>
-							<li class="parse2-4">更多<img src="img/look-all.png"></li>
-						</ul>
 						
 					</div>
 				</div>
 			</div>
 			<div class="parts1">
 				<div class="parts1-1">
+					<ol class="aaa">
+						<li id="parse2-1" class="parse-2"><a>壳膜套</a></li>
+						<li id="parse2-2"><a>充电宝</a></li>
+						<li id="parse2-3"><a>耳机</a></li>
+						<div id="parse2-4"><a>更多<img src="img/look-all.png"></a></div>
+					</ol>
 					<!--壳膜套-->
 					<ul class="parse-2-1">
 						<li>
