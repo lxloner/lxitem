@@ -112,6 +112,7 @@ img{
                     padding: 0;
                     position: relative;
                     margin-bottom: 12px;
+                    
                     .landing3{
                         display: block;
                         width:306px;
@@ -135,7 +136,32 @@ img{
                             font-size:14px;
                             border-left:1px solid #ccc;
                         }
-                    
+                    #code{
+                        width:224px;
+                    }
+                    .hq{
+                        position: absolute;
+                        top: 0;
+                        right: 86px;
+                        height: 40px;
+                        display: inline-block;
+                        width:78px;
+                        padding: 0;
+                        text-align: center;
+                        line-height:40px;
+                    }
+                    .ddd{
+                        position: absolute;
+                        top: 0;
+                        right: 0;
+                        padding:10px 10px;
+                        display: inline-block;
+                        cursor:pointer;
+                        border: none;
+                        font-size:12px;
+                        background:#f9f9f9;
+                        
+                    }
                 }
                 .btn{
                     width:332px;
@@ -160,6 +186,7 @@ img{
                         }
                     }
                 }
+                
                 .yyzh{
                     width:100%;
                     font-size:14px;
@@ -181,10 +208,8 @@ img{
         width:1230px;
         margin:0 auto;
         text-align: center;
-        border-bottom:1px solid #dfdfdf ;
-       
+        border-bottom:1px solid #dfdfdf ;      
         ul{
-
             width:100%;
             .footer-1-1{
                 margin-left:70px ;

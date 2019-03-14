@@ -14,12 +14,12 @@ gulp.task('css',function(){
 	
 })
 gulp.task('js',function(){
-	gulp.src('./src/js/index.js')
-	.pipe(concat('all.min.js'))
+	gulp.src('./src/js/*.js')
 	.pipe(uglify())
+	.pipe(rename({'suffix' : '.min'}))
 	.pipe(gulp.dest("./dist"))
 })
 gulp.task('default',function(){
 	gulp.watch(['./src/scss/*.scss'],['css']);
-	gulp.watch(['./src/js/index.js'],['js']);
+	gulp.watch(['./src/js/*.js'],['js']);
 }) 

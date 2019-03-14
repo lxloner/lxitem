@@ -4,6 +4,7 @@
 		<meta charset="UTF-8">
 		<title>中兴手机商城 (myzte.com) 是中兴通讯旗下自营电子商务平台,以最终用户为主要对象,提供中兴手机、智能投影仪、配件等终端产品,官方商城,品质保证!</title>
 		<link rel="stylesheet" type="text/css" href="dist/index.min.css"/>
+		<link rel="stylesheet" href="dist/swiper.min.css">
 		<style type="text/css">
 			.parse-2{
 				border-bottom:3px solid #fc6628;
@@ -24,7 +25,7 @@
 					<li><a href="landing.html">登陆</a></li>
 					<li><a href="login.html">注册</a></li>
 					<li>
-						<a href="#"><img src="img/shopcart.png"/>购物车</a>
+						<a href="shopping.html"><img src="img/shopcart.png"/>购物车</a>
 						<div class="gwc">
 							<p>购物车中还没有商品，快快选购把<img src="img/smile.png"></p>
 						</div>
@@ -58,10 +59,7 @@
 								</li>
 							</ol>
 						</div>
-						
-					</li>
-						
-						
+					</li>	
 					<li class="logo-3">
 						<a href="#">BLADE系列</a>
 						<div class="logo-1-1">
@@ -91,17 +89,16 @@
 			</div>
 			
 		</div>
-		<div class="slideshow" id="slideshow">
-			<div class="image1">
-				<img src="img/4644f0ab215f.jpg"/>
-				<img src="img/022dacd9c97e.jpg"/>
-				<img src="img/a35d46b67834.jpg"/>
+		<div class="slideshow" id="slideshow">	
+			<div class="swiper-container">
+			    <div class="swiper-wrapper">
+			        <div class="swiper-slide"><img src="img/4644f0ab215f.jpg"/></div>
+			        <div class="swiper-slide"><img src="img/022dacd9c97e.jpg"/></div>
+			        <div class="swiper-slide"><img src="img/a35d46b67834.jpg"/></div>
+			    </div>
+			    <!-- 如果需要分页器 -->
+			    <div class="swiper-pagination"></div>
 			</div>
-			<ol class="box">
-				<li class="slideshow1 box1"></li>
-				<li class="slideshow2"></li>
-				<li class="slideshow3"></li>
-			</ol>
 			<div class="slideshow-1">
 				<ol>
 					<li class="menu" id="menu-1">
@@ -475,6 +472,26 @@
 		</div>
 	</body>
 	<script src="jquery-1.11.3.js" type="text/javascript" charset="utf-8"></script>
-	<script src="src/js/index.js" type="text/javascript" charset="utf-8"></script>
-	
+	<script src="dist/swiper.min.js"></script>
+	<script src="dist/index.min.js" type="text/javascript" charset="utf-8"></script>
+	<script>        
+  
+ var mySwiper = new Swiper ('.swiper-container', {
+    direction: 'horizontal', // 垂直切换选项
+    loop: true, // 循环模式选项
+    
+    // 如果需要分页器
+    pagination: {
+      el: '.swiper-pagination',
+	  clickable :true,
+    },
+    
+   
+    autoplay : true,
+    // 如果需要滚动条
+    scrollbar: {
+      el: '.swiper-scrollbar',
+    },
+  })    
+  </script>
 </html>
